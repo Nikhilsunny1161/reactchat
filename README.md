@@ -30,13 +30,18 @@ Send a message in the conversation
  use react hooks ONLY.
  the redux data persistent such that after refresh, the messages and conversations are intact.
 
+![Screenshot (20)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/42865713-cc17-4222-9537-63b1e889d7c3)
 
 
 
 
+![Screenshot (21)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/7bcdaaa8-2678-4118-993d-9dabb67a4a0c)
 
 
-# Getting Started with Create React App![Screenshot (18)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/91c7d0d7-a5f5-451d-8378-b26a0c59dddc)
+
+![Screenshot (22)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/6f435585-3d62-48cb-8a68-dc429c90813d)
+
+# Getting Started with Create React App!
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
