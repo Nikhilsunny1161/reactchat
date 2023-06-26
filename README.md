@@ -33,11 +33,8 @@ Send a message in the conversation
 
 
 
-![Screenshot (17)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/3b5bbafb-28f4-4a87-bf0c-cb4c33fb00fa)
 
 
-
-![Screenshot (19)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/226b7f9e-3b35-4029-aa76-836ec052b3e9)
 
 # Getting Started with Create React App![Screenshot (18)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/91c7d0d7-a5f5-451d-8378-b26a0c59dddc)
 
