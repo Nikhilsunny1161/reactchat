@@ -16,10 +16,42 @@ function MessageBox(props) {
     setChat(props.user.chatlog);
     setLength(props.user.chatlog.length);
   }, [props]);
+  var time;
+  var hours;
+  var minutes;
+  function currentTime() {
+  var currentDate = new Date();
+  hours = currentDate.getHours();
+  hours = hours % 12 || 12;
+  hours = appendZero(hours);
+
+  // hours = appendZero(currentDate.getHours());
+  minutes = appendZero(currentDate.getMinutes());
+  var seconds = appendZero(currentDate.getSeconds());
+  const am = "AM";
+  const pm = "PM";
+   const timeZone = hours <= 12 ? am : pm;
+
+  time = `${hours}:${minutes}:${seconds} ${timeZone}`;
+
+  }
+
+  function appendZero(time) {
+  if (time < 10 && time.length != 2) {
+    return "0" + time;
+  }
+  return time;
+}
+
+
+setInterval(currentTime, 1000);
+
+
+
   let updateMesssages = (message) => {
     let object = {
       text: message,
-      timestamp: "12:00",
+      timestamp: time,
       sender: "me",
       message_id: length + 1,
     };
