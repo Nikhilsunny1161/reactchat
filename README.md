@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+Hosting link:=>https://reactchatapp-7f43a.web.app/
+
+
+
+THis is React Chat App 
+Where user Can Send messages to our friend 
+User Add friends to The our Friend list
+
+
+Functionality
+Dummy logged in user.
+Use a json file to load some dummy data in the project.
+Search : conversations should be searchable by contact name.
+
+Left sidebar:
+Show all the conversations created here
+Each conversation should have the contact name and some text of the last message in the chat
+Create conversation button
+On clicking this open a pop up and load all the contacts (from the dummy data.json/js file).
+On clicking the contact should start a new conversation (if no conversation was previously started). Or open the existing conversation for that contact.
+
+
+Right side view
+
+Show the current selected conversation messages
+Send a message in the conversation
+
+
+ use react-router.
+ use react hooks ONLY.
+ the redux data persistent such that after refresh, the messages and conversations are intact.
+
+
+
+
+![Screenshot (17)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/3b5bbafb-28f4-4a87-bf0c-cb4c33fb00fa)
+
+
+
+![Screenshot (19)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/226b7f9e-3b35-4029-aa76-836ec052b3e9)
+
+# Getting Started with Create React App![Screenshot (18)](https://github.com/kfaizan0496/react_chatApp/assets/113850768/91c7d0d7-a5f5-451d-8378-b26a0c59dddc)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
