@@ -6,7 +6,7 @@ function NewConversation(props) {
   };
   return (
     <div className="new-convo">
-      <p>New Conversation</p>
+      <p>New Chat</p>
       <span onClick={handleClick}>
         <i className="fas fa-plus"></i>
       </span>

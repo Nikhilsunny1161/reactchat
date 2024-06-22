@@ -9,7 +9,7 @@ function NewConversationTab({ contacts, showNewConvoTab }) {
     <>
       <div className="new-convo-tab">
         <div className="nct-header">
-          <p>Select Contact</p>
+          <p>Contacts</p>
           <span onClick={handleClose}>
             <i className="fas fa-2x fa-times-circle"></i>
           </span>

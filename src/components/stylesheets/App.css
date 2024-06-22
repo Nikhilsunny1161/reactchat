@@ -12,9 +12,9 @@ body {
 /* media queries */
 .right-sidebar {
   padding: 0;
-  background-color: #db188a3a;
+  background-color: #f0e4eb3a;
   background-image: url(../../images/background.jpg);
 }
 .left-sidebar {
-  background-color: rgb(59, 204, 148);
+  background-color: rgb(162, 157, 235);
 }

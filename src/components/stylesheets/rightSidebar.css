@@ -7,7 +7,7 @@
   }
   /* header */
   .message-box-header {
-    background: rgb(37, 23, 53);
+    background: rgb(187, 224, 170);
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,7 +51,7 @@
     width: 220px;
     height: auto;
     display: block;
-    background: #f0fe86;
+    background: #25d366;;
     border-radius: 4px;
     position: relative;
     margin: 15px 0;
@@ -95,7 +95,7 @@
     bottom: 8px;
     right: 10px;
     text-transform: uppercase;
-    color: black;
+    color: rgb(202, 238, 182);
   }
   .bubble-arrow {
     position: absolute;
@@ -119,7 +119,7 @@
     width: 220px;
     height: auto;
     display: block;
-    background: #c93ba5e0;
+    background: teal;
     border-radius: 4px;
     position: relative;
     margin: 10px 0;
@@ -143,7 +143,7 @@
   }
   /* message-input */
   .message-input {
-    background: rgb(45, 0, 128);
+    background: rgb(197, 228, 169);
     position: fixed;
     bottom: 0;
     width: 100%;

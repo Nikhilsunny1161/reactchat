@@ -6,7 +6,7 @@ function SearchBar({ searchChange }) {
       <input
         style={styles.input}
         className="mb-3"
-        placeholder="search name"
+        placeholder="search"
         onChange={searchChange}
       ></input>
     </>
